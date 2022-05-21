@@ -37,9 +37,7 @@ User.init(
                 updatedUserData.password = await bcrypt.hash(updatedUserData.password, 10);
                 return updatedUserData;
             }
-        }
-    },
-    {
+        },
         // configurations for table
         sequelize,
         timestamps: false,
