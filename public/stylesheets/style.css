@@ -26,8 +26,9 @@ nav a {
 }
 
 button {
-  background-color: #225ca3;
+  background-color: #011936;
   border: 0;
+  width: 40%;
   padding: 1%;
   color: white;
   font-weight: bold;
@@ -47,6 +48,7 @@ button:hover {
 
 textarea, input {
   padding: .5%;
+  width: 40%;
   border-radius: 5px;
   border: 1px solid #ccc;
 }
@@ -63,9 +65,11 @@ textarea {
 
 form > div {
   margin-bottom: 2%;
+  font-weight: bold;
 }
 
 form label {
+  margin-bottom: 0.5%;
   display: block;
 }
 
