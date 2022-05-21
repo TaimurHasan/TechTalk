@@ -2,6 +2,7 @@ const router = require('express').Router();
 const { Post, User, Comment } = require('../models')
 
 router.get('/', (req, res) => {
+    console.log(req.session);
     // find all posts to display on home page
     Post.findAll({
         attributes: ['id', 'title', 'content', 'created_at'],
@@ -28,7 +29,7 @@ router.get('/', (req, res) => {
         const posts = dbPostData.map(post => post.get({ plain: true }))
 
         // render homepage handlebars template with posts
-        res.render('homepage', { posts })
+        res.render('homepage', { posts, loggedIn: req.session.loggedIn })
     })
     .catch(err => {
         console.log(err);

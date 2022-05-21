@@ -37,8 +37,13 @@ button {
   border-radius: 5px;
 }
 
+
 button:hover {
   background-color: #3486eb;
+}
+
+nav button:hover {
+  color: #137289
 }
 
 .post-list {
@@ -103,21 +108,27 @@ li {
 }
 
 .btn-no-style {
+  text-decoration: none;
+  color: #102640;
+  transition: color .3s;
   background: none;
   border: none;
-  padding: 0;
   cursor: pointer;
-  text-decoration: none;
-  color: #041325;
   font-size: 100%;
-  font-weight: bold;
-  transition: color .1s;
-  margin-left: 16px;
 }
 
 .btn-no-style:hover {
   background: none;
   color: #3486eb;
+}
+
+
+nav button {
+  margin: 0 20px;
+  padding: 0;
+  border: 0;
+  width: 0%;
+  font-family: 'Manrope', sans-serif;
 }
 
 .delete-post-btn {
