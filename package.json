@@ -1,0 +1,29 @@
+{
+  "name": "techtalks",
+  "version": "1.0.0",
+  "description": "A tech-based blog built using Javascript, allowing users to create an account to login, write posts, and leave comments!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaimurHasan/TechTalks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TaimurHasan/TechTalks/issues"
+  },
+  "homepage": "https://github.com/TaimurHasan/TechTalks#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.2"
+  }
+}
