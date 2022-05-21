@@ -1,4 +1,4 @@
-const { User } = require('../../models');
+const { User, Post } = require('../../models');
 const sequelize = require('../../config/connection')
 const router = require('express').Router();
 
@@ -20,7 +20,13 @@ router.get('/:id', (req, res) => {
         where: {
             id: req.params.id
         },
-        attributes: { exclude: ['password'] }
+        attributes: { exclude: ['password'] },
+        include: [
+            {
+                model: Post,
+                attributes: ['id', 'title', 'content', 'created_at']
+            }
+        ]
     })
     .then(dbUserData => {
         if(!dbUserData) {
