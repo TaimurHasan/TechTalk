@@ -197,3 +197,12 @@ footer {
 .post-list li {
   margin-bottom: 5%;
 }
+
+.edit-button-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-button-div button {
+  margin-bottom: 2%;
+}
