@@ -189,3 +189,11 @@ footer {
   font-size: 110%;
   font-style: italic;
 }
+
+.post-list {
+  margin-top: 5%;
+}
+
+.post-list li {
+  margin-bottom: 5%;
+}
