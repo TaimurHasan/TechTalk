@@ -11,7 +11,7 @@
             <textarea name="post-body" type = "text">{{post.content}}</textarea>
         </div>
         <div>
-            by {{post.user.username}} on {{post.created_at}}
+            by {{post.user.username}} on {{format_date post.created_at}}
             |
             <a href="/post/{{post.id}}">{{post.comments.length}} comments</a>
         </div>
