@@ -29,7 +29,7 @@ router.get('/', (req, res) => {
         const posts = dbPostData.map(post => post.get({ plain: true }))
 
         // render homepage handlebars template with posts
-        res.render('homepage', { posts, loggedIn: req.session.loggedIn })
+        res.render('homepage', { posts, username: req.session.username, loggedIn: req.session.loggedIn })
     })
     .catch(err => {
         console.log(err);

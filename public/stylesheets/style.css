@@ -81,7 +81,7 @@ form label {
 .wrapper {
   width: 100%;
   min-height: 100%;
-  max-width: 1500px;
+  max-width: 1600px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -92,6 +92,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 1%;
+  background-color: #90b5be;
 }
 
 header h1 {
@@ -119,7 +120,7 @@ li {
 
 .btn-no-style:hover {
   background: none;
-  color: #3486eb;
+  color: #137289;
 }
 
 
@@ -130,6 +131,8 @@ nav button {
   width: 0%;
   font-family: 'Manrope', sans-serif;
 }
+
+
 
 .delete-post-btn {
   background-color: #d41414;
@@ -205,4 +208,8 @@ footer {
 
 .edit-button-div button {
   margin-bottom: 2%;
+}
+
+nav button:hover {
+  color: #137289;
 }
