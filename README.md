@@ -1,11 +1,15 @@
-# TechTalks
+# TechTalk
 ## Description
-![Tech Talk Homepage](./assets/images/Screenshot%202022-05-23%20181040.png)
+[Tech Talk Logo](./assets/images/logo.png)
+[![Tech Talk Homepage](./assets/images/Screenshot%202022-05-23%20181040.png)](https://techtalkbytaimur.herokuapp.com/)
 
 <br/>
-TechTalk is an online tech blog, which allows a user to create an account and start posting blog posts. Beyond that, a user is able to edit and delete posts as needed, as well as leave comments on other user's posts. This project uses user authentication to ensure that only password-protected accounts are able to make, edit, and delete posts or comments. Note: passwords are encrypted using the bcrypt npm package!
+TechTalk is an online tech blog, which allows a user to create an account and start posting blog posts. Beyond that, a user is able to edit and delete posts as needed, as well as leave comments on other user's posts. This project uses user authentication to ensure that only password-protected accounts are able to make, edit, and delete posts or comments. <br/>
+
+Note: passwords are encrypted using the bcrypt npm package!
 <br/>
 <br/>
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Languages and Technologies Used:** 
