@@ -7,7 +7,7 @@ body, html {
   padding: 0;
   margin: 0;
   font-family: 'Manrope', sans-serif;
-  color: #333;
+  color: #000000;
 }
 
 a {
@@ -18,11 +18,12 @@ a {
 }
 
 a:hover {
-  color: #137289
+  color: #FF6A3D;
 }
 
 nav a {
   margin: 0 20px;
+  color: white;
 }
 
 button {
@@ -92,11 +93,16 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 1%;
-  background-color: #90b5be;
+  background-color: #1A2238;
 }
 
 header h1 {
   font-size: 2em;
+  color: white;
+}
+
+header h1:hover {
+  color: #FF6A3D;
 }
 
 main {
@@ -110,7 +116,7 @@ li {
 
 .btn-no-style {
   text-decoration: none;
-  color: #102640;
+  color: white;
   transition: color .3s;
   background: none;
   border: none;
@@ -120,7 +126,7 @@ li {
 
 .btn-no-style:hover {
   background: none;
-  color: #137289;
+  color: #FF6A3D;
 }
 
 
@@ -131,7 +137,6 @@ nav button {
   width: 0%;
   font-family: 'Manrope', sans-serif;
 }
-
 
 
 .delete-post-btn {
@@ -145,6 +150,8 @@ nav button {
 .post {
   margin-bottom: 2%;
   line-height: 150%;
+  padding-bottom: 3%;
+  border-bottom: #000000 1px solid;
 }
 
 .post .title span {
@@ -168,7 +175,8 @@ nav button {
 }
 
 .comment:nth-child(odd) {
-  background-color: #fff5eb;
+  background-color:#384977;
+  color: white;
 }
 
 .comment .meta {
@@ -210,6 +218,6 @@ footer {
   margin-bottom: 2%;
 }
 
-nav button:hover {
-  color: #137289;
+.title:hover {
+  font-size: 103%;
 }
