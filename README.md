@@ -1,6 +1,5 @@
 # TechTalk
 ## Description
-![Tech Talk Logo](./assets/images/logo.png)
 [![Tech Talk Homepage](./assets/images/Screenshot%202022-05-23%20181040.png)](https://techtalkbytaimur.herokuapp.com/)
 
 <br/>
