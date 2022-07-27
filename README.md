@@ -39,7 +39,7 @@ To run this application locally, follow the steps listed below:
 - ```DB_USER = '<SQL user'>```
 - ```DB_PW = '<SQL password'>```
 6. Run mysql -u root -p to login into sql and run the following code lines to initialize the database and pre-populate its tables:
-- source db/schema.sql
+- ```source db/schema.sql```
 7. Install the required packages using 'npm i'.
 8. Call the application using ```node server.js``` to launch!
 
