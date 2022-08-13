@@ -20,11 +20,28 @@ Note: passwords are encrypted using the bcrypt npm package!
 
 ## Table of Contents
 
+1. [ Installation ](#install)
 1. [ Usage ](#usage)
 2. [ License ](#license)
 3. [ Contributing ](#contributing)
 4. [ Questions ](#questions)
 
+<a name="install"></a>
+
+## Installation
+To run this application locally, follow the steps listed below:
+1. Download the latest version of node.js on your computer and ensure you have access to a MySQL account.
+2. Clone this repository on your computer by opening your command-line interface and using git clone and the HTTPS or SSH URL retrieved from this repository's 'Code' dropdown above (e.g.git clone git@github.com:TaimurHasan/TechTalk.git).
+3. Navigate or cd into the cloned directory from the CLI (i.e. cd ./TechTalk).
+4. Initialize the NPM registry, as it hosts the required packages needed to run this application, using npm init -y.
+5. Create a '.env' file provided in the root directory of repository and add the following:
+- ```DB_NAME = 'tech_talks_db'```
+- ```DB_USER = '<SQL user'>```
+- ```DB_PW = '<SQL password'>```
+6. Run mysql -u root -p to login into sql and run the following code lines to initialize the database and pre-populate its tables:
+- ```source db/schema.sql```
+7. Install the required packages using 'npm i'.
+8. Call the application using ```node server.js``` to launch!
 
 <a name="usage"></a>
 
