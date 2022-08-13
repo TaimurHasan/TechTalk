@@ -33,8 +33,11 @@ To use this application, please visit the deployed application on [Heroku](https
 
 In order to use the full functionality of this application, please create an account. To create an account, navigate to the 'Login' page from the nav bar and click where prompted to sign up. You will be required to provide a unique username and a password to make an account. From there, navigate to your dashboard to create posts, or back to the homepage to view existing posts and leave comments!
 
+**Login**<br/>
 ![Tech Talk Login Page](./assets/images/Screenshot%202022-05-23%20180844.png)
 
+**Single Post Page and Comments**<br/>
+![Tech Talk single post Page](./assets/images/screencapture-techtalkbytaimur-herokuapp-post-1-2022-08-13-14_23_27.png)
 
 <a name="license"></a>
 ## License
